@@ -6,6 +6,7 @@ on:
     branches:    
       - main
       - dev
+  workflow_dispatch: 
 jobs:
   push:
       runs-on: ${{ matrix.operating-system }}
@@ -54,8 +55,8 @@ jobs:
       - name: Commit and push if changed   # 更新README.md
         run: |
           git diff
-          git config --global user.email "zhaoolee@gmail.com"
-          git config --global user.name "zhaoolee"
+          git config --global user.email "291876426@qq.com"
+          git config --global user.name "lijian12011"
           git add README.md
           git commit -m "Github Action auto Updated"
           git push
