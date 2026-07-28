@@ -1,26 +1,22 @@
+"""
+garss main.py — 完全基于 garssInfo.json 驱动
+不再依赖 EditREADME.md 作为源配置，直接读取 garssInfo.json 拉取 RSS 并生成 README.md
+"""
+
 import time
 import os
-import re
 import json
-import shutil
 import email.utils
-import urllib.error
 import urllib.request
-import xml.etree.ElementTree as ET
 from datetime import datetime
-from urllib.parse import quote, urljoin, urlparse
+from urllib.parse import urlparse, urljoin, quote
 from zoneinfo import ZoneInfo
-from multiprocessing import Pool,  Manager
+from multiprocessing import Pool, Manager
 
 try:
     import feedparser
 except ImportError:
     feedparser = None
-
-try:
-    import markdown
-except ImportError:
-    markdown = None
 
 try:
     import requests
@@ -32,6 +28,10 @@ try:
 except ImportError:
     yagmail = None
 
+import xml.etree.ElementTree as ET
+
+
+# ===== GARSS Studio RSSHub 代理相关 =====
 
 GARSS_STUDIO_ACCESS_TOKEN = ""
 
@@ -52,33 +52,29 @@ def is_garss_studio_rsshub_url(feed_url):
 def get_rsshub_route_path(feed_url):
     parse_result = urlparse(feed_url)
     route_path = parse_result.path or "/"
-
     if parse_result.query:
         route_path = route_path + "?" + parse_result.query
-
     return route_path
 
 
 def get_garss_studio_access_token():
     global GARSS_STUDIO_ACCESS_TOKEN
-
     if GARSS_STUDIO_ACCESS_TOKEN:
         return GARSS_STUDIO_ACCESS_TOKEN
-
     login_url = urljoin(get_garss_studio_base_url() + "/", "api/auth/login")
     response_data = http_post_json(login_url, {"accessCode": get_garss_studio_access_code()}, 8)
     GARSS_STUDIO_ACCESS_TOKEN = response_data["token"]
     return GARSS_STUDIO_ACCESS_TOKEN
 
 
+# ===== HTTP 工具 =====
+
 def http_get_content(url, timeout, headers):
     if requests:
         response = requests.get(url, timeout=timeout, headers=headers)
         response.raise_for_status()
         return response.content
-
     request = urllib.request.Request(url, headers=headers)
-
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return response.read()
 
@@ -86,12 +82,9 @@ def http_get_content(url, timeout, headers):
 def http_post_json(url, body, timeout):
     encoded_body = json.dumps(body).encode("utf-8")
     request = urllib.request.Request(
-        url,
-        data=encoded_body,
-        headers={"Content-Type": "application/json"},
-        method="POST",
+        url, data=encoded_body,
+        headers={"Content-Type": "application/json"}, method="POST",
     )
-
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return json.loads(response.read().decode("utf-8"))
 
@@ -99,32 +92,29 @@ def http_post_json(url, body, timeout):
 def get_feed_url_content(feed_url, timeout, headers):
     if not is_garss_studio_rsshub_url(feed_url):
         return http_get_content(feed_url, timeout, headers)
-
     route_path = get_rsshub_route_path(feed_url)
     fetch_url = urljoin(get_garss_studio_base_url() + "/", "api/rsshub/fetch") + "?routePath=" + quote(route_path, safe="")
-    return http_get_content(
-        fetch_url,
-        timeout,
-        {
-            **headers,
-            "Authorization": "Bearer " + get_garss_studio_access_token(),
-        },
-    )
+    return http_get_content(fetch_url, timeout, {
+        **headers,
+        "Authorization": "Bearer " + get_garss_studio_access_token(),
+    })
 
+
+# ===== RSS 解析 =====
 
 def parse_entry_date(value):
-    parsed_date = email.utils.parsedate_to_datetime(value or "")
-
-    if parsed_date:
-        return parsed_date.strftime("%Y-%m-%d")
-
+    try:
+        parsed_date = email.utils.parsedate_to_datetime(value or "")
+        if parsed_date:
+            return parsed_date.strftime("%Y-%m-%d")
+    except:
+        pass
     return datetime.today().strftime("%Y-%m-%d")
 
 
 def parse_feed_entries_with_stdlib(feed_url_content):
     root = ET.fromstring(feed_url_content)
     entries = []
-
     if root.tag.endswith("rss") or root.find("./channel") is not None:
         for item in root.findall("./channel/item"):
             title = item.findtext("title", default="")
@@ -132,92 +122,129 @@ def parse_feed_entries_with_stdlib(feed_url_content):
             published = item.findtext("pubDate", default="") or item.findtext("date", default="")
             entries.append({"title": title, "link": link, "date": parse_entry_date(published)})
         return entries
-
     namespaces = {"atom": "http://www.w3.org/2005/Atom"}
     for entry in root.findall("./atom:entry", namespaces):
         title = entry.findtext("atom:title", default="", namespaces=namespaces)
         link_element = entry.find("atom:link", namespaces)
         link = link_element.get("href", "") if link_element is not None else ""
-        published = entry.findtext("atom:published", default="", namespaces=namespaces) or entry.findtext(
-            "atom:updated",
-            default="",
-            namespaces=namespaces,
-        )
+        published = entry.findtext("atom:published", default="", namespaces=namespaces) or entry.findtext("atom:updated", default="", namespaces=namespaces)
         entries.append({"title": title, "link": link, "date": parse_entry_date(published)})
-
     return entries
 
 
 def parse_feed_entries(feed_url_content):
     if not feedparser:
         return parse_feed_entries_with_stdlib(feed_url_content)
-
     feed = feedparser.parse(feed_url_content)
-    feed_entries = feed["entries"]
     result = []
-
-    for entrie in feed_entries:
+    for entry in feed["entries"]:
+        try:
+            date = time.strftime("%Y-%m-%d", entry["published_parsed"])
+        except:
+            date = datetime.today().strftime("%Y-%m-%d")
         result.append({
-            "title": entrie["title"],
-            "link": entrie["link"],
-            "date": time.strftime("%Y-%m-%d", entrie["published_parsed"])
+            "title": entry.get("title", ""),
+            "link": entry.get("link", ""),
+            "date": date
         })
-
     return result
 
 
+# ===== 拉取单个源 =====
+
 def get_rss_info(feed_url, index, rss_info_list):
-    result = {"result": []}
-    request_success = False
-    # 如果请求出错,则重新请求,最多五次
+    result = []
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Content-Encoding": "gzip"
+    }
     for i in range(3):
-        if(request_success == False):
-            try:
-                headers = {
-                    # 设置用户代理头(为狼披上羊皮)
-                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
-                    "Content-Encoding": "gzip"
-                }
-                # 三次分别设置8, 16, 24秒钟超时
-                feed_url_content = get_feed_url_content(feed_url, (i+1)*8, headers)
-                feed_entries = parse_feed_entries(feed_url_content)
-                feed_entries_length = len(feed_entries)
-                print("==feed_url=>>", feed_url, "==len=>>", feed_entries_length)
-                for entrie in feed_entries[0: feed_entries_length-1]:
-                    title = entrie["title"]
-                    link = entrie["link"]
-                    date = entrie["date"]
-
-                    title = title.replace("\n", "")
-                    title = title.replace("\r", "")
-
-                    result["result"].append({
-                        "title": title,
-                        "link": link,
-                        "date": date
-                    })
-                request_success = True
-            except Exception as e:
-                print(feed_url+"第+"+str(i)+"+次请求出错==>>",e)
-                pass
-        else:
-            pass
-
-    rss_info_list[index] = result["result"]
-    print("本次爬取==》》", feed_url, "<<<===", index, result["result"])
-    # 剩余数量
-    remaining_amount = 0
-
-    for tmp_rss_info_atom in rss_info_list:
-        if(isinstance(tmp_rss_info_atom, int)):
-            remaining_amount = remaining_amount + 1
-            
-    print("当前进度 | 剩余数量", remaining_amount, "已完成==>>", len(rss_info_list)-remaining_amount)
-    return result["result"]
-    
+        try:
+            feed_url_content = get_feed_url_content(feed_url, (i + 1) * 8, headers)
+            feed_entries = parse_feed_entries(feed_url_content)
+            print(f"  ✓ {feed_url} => {len(feed_entries)} 条")
+            for entry in feed_entries:
+                title = entry["title"].replace("\n", "").replace("\r", "")
+                result.append({"title": title, "link": entry["link"], "date": entry["date"]})
+            break
+        except Exception as e:
+            print(f"  ⚠️ {feed_url} 第{i+1}次请求出错: {e}")
+    rss_info_list[index] = result
+    return result
 
 
-def send_mail(email, title, contents):
+# ===== 生成 README.md =====
+
+def generate_readme(sources, rss_info_list):
+    today = datetime.today().strftime("%Y-%m-%d")
+    ga_rss_datetime = datetime.fromtimestamp(int(time.time()), ZoneInfo('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
+
+    lines = []
+    lines.append(f"# 📰 每日技术简报 (garss, 已收集{len(sources)}个RSS源, 生成时间: {ga_rss_datetime})")
+    lines.append("")
+    lines.append("基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。")
+    lines.append("")
+
+    # 生成今日新闻汇总
+    new_num = 0
+    news_lines = []
+
+    # 按 category 分组
+    categories = {}
+    for i, source in enumerate(sources):
+        cat = source.get("category", "未分类")
+        if cat not in categories:
+            categories[cat] = []
+        categories[cat].append((source, rss_info_list[i]))
+
+    for cat, items in categories.items():
+        lines.append(f"## {cat}")
+        lines.append("")
+        lines.append("| 源 | 最新内容 |")
+        lines.append("| --- | --- |")
+
+        for source, rss_info in items:
+            title = source["title"]
+            if isinstance(rss_info, list) and len(rss_info) > 0:
+                first = rss_info[0]
+                is_today = "🌈" if first["date"] == today else ""
+                content = f"[{first['title']}]({first['link']}) {is_today} {first['date']}"
+            else:
+                content = "暂无更新"
+            lines.append(f"| **{title}** | {content} |")
+
+        lines.append("")
+
+    # 今日值得看
+    lines.append("---")
+    lines.append("")
+    lines.append(f"## 🕶️ 今日值得看 ({today})")
+    lines.append("")
+
+    for i, source in enumerate(sources):
+        rss_info = rss_info_list[i]
+        if not isinstance(rss_info, list):
+            continue
+        for entry in rss_info:
+            if entry["date"] == today:
+                new_num += 1
+                lines.append(f"{new_num}. [{entry['title']}]({entry['link']}) — {source['title']}")
+
+    if new_num == 0:
+        lines.append("今日暂无新内容更新")
+
+    lines.append("")
+    lines.append(f"---")
+    lines.append(f"")
+    lines.append(f"共 **{new_num}** 篇今日新文章，来自 **{len(sources)}** 个 RSS 源。")
+    lines.append("")
+
+    return "\n".join(lines), new_num
+
+
+# ===== 邮件发送 =====
+
+def send_mail(email_list, title, content):
     if os.environ.get("GARSS_SKIP_MAIL", "") == "1":
         print("已设置 GARSS_SKIP_MAIL=1，跳过邮件发送")
         return
@@ -226,289 +253,73 @@ def send_mail(email, title, contents):
         print("当前环境没有 yagmail，跳过邮件发送")
         return
 
-    # 判断secret.json是否存在
-    user = ""
-    password = ""
-    host = ""
-    try:
-        if(os.environ["USER"]):
-            user = os.environ["USER"]
-        if(os.environ["PASSWORD"]):
-            password = os.environ["PASSWORD"]
-        if(os.environ["HOST"]):
-            host = os.environ["HOST"]
-    except:
-        print("无法获取github的secrets配置信息,开始使用本地变量")
-        if(os.path.exists(os.path.join(os.getcwd(),"secret.json"))):
-            with open(os.path.join(os.getcwd(),"secret.json"),'r') as load_f:
-                load_dict = json.load(load_f)
-                user = load_dict["user"]
-                password = load_dict["password"]
-                host = load_dict["host"]
-                # print(load_dict)
+    user = os.environ.get("USER", "")
+    password = os.environ.get("PASSWORD", "")
+    host = os.environ.get("HOST", "")
+
+    if not user or not password:
+        # 尝试读取本地 secret.json
+        secret_path = os.path.join(os.getcwd(), "secret.json")
+        if os.path.exists(secret_path):
+            with open(secret_path, 'r') as f:
+                load_dict = json.load(f)
+                user = load_dict.get("user", "")
+                password = load_dict.get("password", "")
+                host = load_dict.get("host", "")
         else:
-            print("无法获取发件人信息")
-    
-    # 连接邮箱服务器
-    # yag = yagmail.SMTP(user=user, password=password, host=host)
-    yag = yagmail.SMTP(user = user, password = password, host=host)
-    # 发送邮件
-    yag.send(email, title, contents)
+            print("无法获取发件人信息，跳过邮件发送")
+            return
 
-def replace_readme():
-    new_edit_readme_md = ["", ""]
-    current_date_news_index = [""]
+    try:
+        yag = yagmail.SMTP(user=user, password=password, host=host)
+        yag.send(email_list, title, content)
+        print(f"✅ 邮件发送成功 -> {email_list}")
+    except Exception as e:
+        print(f"⚠️ 邮件发送失败: {e}")
 
 
-    
-    # 读取EditREADME.md
-    print("replace_readme")
-    new_num = 0
-    with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
-        edit_readme_md = load_f.read();
-
-
-
-        new_edit_readme_md[0] = edit_readme_md
-        before_info_list =  re.findall(r'\{\{latest_content\}\}.*\[订阅地址\]\(.*\)' ,edit_readme_md);
-        # 填充统计RSS数量
-        new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{rss_num}}", str(len(before_info_list)))
-        # 填充统计时间
-        ga_rss_datetime = datetime.fromtimestamp(int(time.time()), ZoneInfo('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
-        new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{ga_rss_datetime}}", str(ga_rss_datetime))
-
-        # 使用进程池进行数据获取，获得rss_info_list
-        before_info_list_len = len(before_info_list)
-        rss_info_list = Manager().list(range(before_info_list_len))
-        print('初始化完毕==》', rss_info_list)
-
-        
-
-        # 创建一个最多开启8进程的进程池
-        po = Pool(8)
-
-        for index, before_info in enumerate(before_info_list):
-            # 获取link
-            link = re.findall(r'\[订阅地址\]\((.*)\)', before_info)[0]
-            po.apply_async(get_rss_info,(link, index, rss_info_list))
-
-
-        # 关闭进程池,不再接收新的任务,开始执行任务
-        po.close()
-
-        # 主进程等待所有子进程结束
-        po.join()
-        print("----结束----", rss_info_list)
-
-
-        for index, before_info in enumerate(before_info_list):
-            # 获取link
-            link = re.findall(r'\[订阅地址\]\((.*)\)', before_info)[0]
-            # 生成超链接
-            rss_info = rss_info_list[index]
-            latest_content = ""
-            parse_result = urlparse(link)
-            scheme_netloc_url = str(parse_result.scheme)+"://"+str(parse_result.netloc)
-            latest_content = "[暂无法通过爬虫获取信息, 点击进入源网站主页]("+ scheme_netloc_url +")"
-
-            # 加入到索引
-            try:
-                for rss_info_atom in rss_info:
-                    if (rss_info_atom["date"] == datetime.today().strftime("%Y-%m-%d")):
-                        new_num = new_num + 1
-                        if (new_num % 2) == 0:
-                            current_date_news_index[0] = current_date_news_index[0] + "<div style='line-height:3;' ><a href='" + rss_info_atom["link"] + "' " + 'style="line-height:2;text-decoration:none;display:block;color:#584D49;">' + "🌈 ‣ " + rss_info_atom["title"] + " | 第" + str(new_num) +"篇" + "</a></div>"
-                        else:
-                            current_date_news_index[0] = current_date_news_index[0] + "<div style='line-height:3;background-color:#FAF6EA;' ><a href='" + rss_info_atom["link"] + "' " + 'style="line-height:2;text-decoration:none;display:block;color:#584D49;">' + "🌈 ‣ " + rss_info_atom["title"] + " | 第" + str(new_num) +"篇" + "</a></div>"
-
-            except:
-                print("An exception occurred")
-            
-
-                
-            if(len(rss_info) > 0):
-                rss_info[0]["title"] = rss_info[0]["title"].replace("|", "\|")
-                rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
-                rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
-
-                latest_content = "[" + "‣ " + rss_info[0]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[0]["link"] +")"  
-
-            if(len(rss_info) > 1):
-                rss_info[1]["title"] = rss_info[1]["title"].replace("|", "\|")
-                rss_info[1]["title"] = rss_info[1]["title"].replace("[", "\[")
-                rss_info[1]["title"] = rss_info[1]["title"].replace("]", "\]")
-
-                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[1]["link"] +")"
-
-            # 生成after_info
-            after_info = before_info.replace("{{latest_content}}", latest_content)
-            print("====latest_content==>", latest_content)
-            # 替换edit_readme_md中的内容
-            new_edit_readme_md[0] = new_edit_readme_md[0].replace(before_info, after_info)
-    
-    # 替换EditREADME中的索引
-    new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{news}}", current_date_news_index[0])
-    # 替换EditREADME中的新文章数量索引
-    new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{new_num}}", str(new_num))
-    # 添加CDN
-    new_edit_readme_md[0] = new_edit_readme_md[0].replace("./_media", "https://cdn.jsdelivr.net/gh/zhaoolee/garss/_media")
-        
-    # 将新内容
-    with open(os.path.join(os.getcwd(),"README.md"),'w') as load_f:
-        load_f.write(new_edit_readme_md[0])
-    
-
-    mail_re = r'邮件内容区开始>([.\S\s]*)<邮件内容区结束'
-    reResult = re.findall(mail_re, new_edit_readme_md[0])
-    new_edit_readme_md[1] = reResult
-
-    
-    return new_edit_readme_md
-
-# 将README.md复制到docs中
-
-def cp_readme_md_to_docs():
-    shutil.copyfile(os.path.join(os.getcwd(),"README.md"), os.path.join(os.getcwd(), "docs","README.md"))
-    
-def cp_media_to_docs():
-    if os.path.exists(os.path.join(os.getcwd(), "docs","_media")):
-        shutil.rmtree(os.path.join(os.getcwd(), "docs","_media"))	
-    shutil.copytree(os.path.join(os.getcwd(),"_media"), os.path.join(os.getcwd(), "docs","_media"))
-
-def get_email_list():
-    email_list = []
-    with open(os.path.join(os.getcwd(),"tasks.json"),'r') as load_f:
-        load_dic = json.load(load_f)
-        for task in load_dic["tasks"]:
-            email_list.append(task["email"])
-    return email_list
-
-# 创建opml订阅文件
-
-def create_opml():
-
-    result = "";
-    result_v1 = "";
-
-    # <outline text="CNET News.com" description="Tech news and business reports by CNET News.com. Focused on information technology, core topics include computers, hardware, software, networking, and Internet media." htmlUrl="http://news.com.com/" language="unknown" title="CNET News.com" type="rss" version="RSS2" xmlUrl="http://news.com.com/2547-1_3-0-5.xml"/>
-
-    with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
-        edit_readme_md = load_f.read();
-
-        ## 将信息填充到opml_info_list
-        opml_info_text_list =  re.findall(r'.*\{\{latest_content\}\}.*\[订阅地址\]\(.*\).*' ,edit_readme_md);
-
-        for opml_info_text in opml_info_text_list:
-
-
-            # print('==', opml_info_text)
-
-            opml_info_text_format_data = re.match(r'\|(.*)\|(.*)\|(.*)\|(.*)\|.*\[订阅地址\]\((.*)\).*\|',opml_info_text)
-
-            # print("data==>>", opml_info_text_format_data)
-
-            # print("总信息", opml_info_text_format_data[0].strip())
-            # print("编号==>>", opml_info_text_format_data[1].strip())
-            # print("text==>>", opml_info_text_format_data[2].strip())
-            # print("description==>>", opml_info_text_format_data[3].strip())
-            # print("data004==>>", opml_info_text_format_data[4].strip())
-            print('##',opml_info_text_format_data[2].strip())
-            print(opml_info_text_format_data[3].strip())
-            print(opml_info_text_format_data[5].strip())
-            
-
-            opml_info = {}
-            opml_info["text"] = opml_info_text_format_data[2].strip()
-            opml_info["description"] = opml_info_text_format_data[3].strip()
-            opml_info["htmlUrl"] = opml_info_text_format_data[5].strip()
-            opml_info["title"] = opml_info_text_format_data[2].strip()
-            opml_info["xmlUrl"] = opml_info_text_format_data[5].strip()
-
-            # print('opml_info==>>', opml_info);
-            
-
-
-            opml_info_text = '<outline  text="{text}" description="{description}" htmlUrl="{htmlUrl}" language="unknown" title="{title}" type="rss" version="RSS2" xmlUrl="{xmlUrl}"/>'
-
-            opml_info_text_v1 = '      <outline text="{title}" title="{title}" type="rss"  \n            xmlUrl="{xmlUrl}" htmlUrl="{htmlUrl}"/>'
-
-            opml_info_text =  opml_info_text.format(
-                text=opml_info["text"], 
-                description=opml_info["description"], 
-                htmlUrl = opml_info["htmlUrl"],
-                title=opml_info["title"],
-                xmlUrl=opml_info["xmlUrl"]
-            )
-
-            opml_info_text_v1 =  opml_info_text_v1.format(
-                htmlUrl = opml_info["htmlUrl"],
-                title=opml_info["title"],
-                xmlUrl=opml_info["xmlUrl"]
-            )
-
-            result = result + opml_info_text + "\n"
-
-            result_v1 = result_v1 + opml_info_text_v1 + "\n"
-    
-    zhaoolee_github_garss_subscription_list = "";
-    with open(os.path.join(os.getcwd(),"rss-template-v2.txt"),'r') as load_f:
-        zhaoolee_github_garss_subscription_list_template = load_f.read();
-        GMT_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'
-        date_created = datetime.utcnow().strftime(GMT_FORMAT);
-        date_modified = datetime.utcnow().strftime(GMT_FORMAT);
-        zhaoolee_github_garss_subscription_list = zhaoolee_github_garss_subscription_list_template.format(result=result, date_created=date_created, date_modified=date_modified);
-        # print(zhaoolee_github_garss_subscription_list);
-
-    # 将内容写入
-    with open(os.path.join(os.getcwd(),"zhaoolee_github_garss_subscription_list_v2.opml"),'w') as load_f:
-        load_f.write(zhaoolee_github_garss_subscription_list)
-
-    zhaoolee_github_garss_subscription_list_v1 = ""
-    with open(os.path.join(os.getcwd(),"rss-template-v1.txt"),'r') as load_f:
-        zhaoolee_github_garss_subscription_list_template = load_f.read();
-        zhaoolee_github_garss_subscription_list_v1 = zhaoolee_github_garss_subscription_list_template.format(result=result_v1);
-        # print(zhaoolee_github_garss_subscription_list_v1);
-
-    # 将内容写入
-    with open(os.path.join(os.getcwd(),"zhaoolee_github_garss_subscription_list_v1.opml"),'w') as load_f:
-        load_f.write(zhaoolee_github_garss_subscription_list_v1)
-
-
-
-
-        
-    # print(result)
-
-def create_json():
-    result = {"garssInfo": []}
-    with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
-        edit_readme_md = load_f.read();
-        ## 将信息填充到opml_info_list
-        opml_info_text_list =  re.findall(r'.*\{\{latest_content\}\}.*\[订阅地址\]\(.*\).*' ,edit_readme_md);
-        for opml_info_text in opml_info_text_list:
-            opml_info_text_format_data = re.match(r'\|(.*)\|(.*)\|(.*)\|(.*)\|.*\[订阅地址\]\((.*)\).*\|',opml_info_text)
-            opml_info = {}
-            opml_info["description"] = opml_info_text_format_data[3].strip()
-            opml_info["title"] = opml_info_text_format_data[2].strip()
-            opml_info["xmlUrl"] = opml_info_text_format_data[5].strip()
-            result["garssInfo"].append(opml_info)
-    with open("./garssInfo.json","w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=4)
+# ===== 主函数 =====
 
 def main():
-    create_json()
-    create_opml()
-    readme_md = replace_readme()
-    content = markdown.markdown(readme_md[0], extensions=['tables', 'fenced_code']) if markdown else readme_md[0]
-    email_list = get_email_list()
+    project_dir = os.path.dirname(os.path.abspath(__file__))
+    os.chdir(project_dir)
 
-    mail_re = r'邮件内容区开始>([.\S\s]*)<邮件内容区结束'
-    reResult = re.findall(mail_re, readme_md[0])
+    # 1. 读取 garssInfo.json
+    with open("garssInfo.json", "r", encoding="utf-8") as f:
+        config = json.load(f)
 
-    try:
-        send_mail(email_list, "嘎!RSS订阅", reResult)
-    except Exception as e:
-        print("==邮件设信息置错误===》》", e)
+    sources = config.get("garssInfo", [])
+    print(f"📡 开始拉取 {len(sources)} 个 RSS 源...")
+
+    # 2. 并行拉取所有源
+    rss_info_list = Manager().list(range(len(sources)))
+    po = Pool(min(8, len(sources) or 1))
+
+    for index, source in enumerate(sources):
+        feed_url = source["xmlUrl"]
+        po.apply_async(get_rss_info, (feed_url, index, rss_info_list))
+
+    po.close()
+    po.join()
+
+    print(f"📊 拉取完成")
+
+    # 3. 生成 README.md
+    readme_content, new_num = generate_readme(sources, rss_info_list)
+
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(readme_content)
+
+    print(f"✅ README.md 生成完成，今日新文章: {new_num} 篇")
+
+    # 4. 发送邮件（可选）
+    tasks_path = os.path.join(project_dir, "tasks.json")
+    if os.path.exists(tasks_path):
+        with open(tasks_path, "r") as f:
+            tasks = json.load(f)
+        email_list = [t["email"] for t in tasks.get("tasks", [])]
+        if email_list and new_num > 0:
+            send_mail(email_list, f"📰 每日技术简报 {datetime.today().strftime('%Y-%m-%d')}", readme_content)
 
 
 if __name__ == "__main__":
