@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-07-29 06:48:58)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-07-30 06:46:15)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,42 +6,42 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [Deflock Casa Grande](https://deflockcg.com/) 🌈 2026-07-28 |
+| **Hacker News Best** | [Kimi K3-256k](https://www.kimi.com/code/docs/en/kimi-code/models) 🌈 2026-07-29 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) 🌈 2026-07-28 |
+| **GitHub Trending Python** | [andrewyng/aisuite](https://github.com/andrewyng/aisuite) 🌈 2026-07-29 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-07-28)
+## 🕶️ 今日值得看 (2026-07-29)
 
-1. [Deflock Casa Grande](https://deflockcg.com/) — Hacker News Best
-2. [Substack writers, you need a website](https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/) — Hacker News Best
-3. [A walk through of the DeltaNet family of linear attention variants](https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention) — Hacker News Best
-4. [Kimi K3 Architecture Overview and Notes](https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html) — Hacker News Best
-5. [Stop Killing the Internet: No Digital ID and No Age Verification](https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en) — Hacker News Best
-6. [New HIV vaccine shows unprecedented success in preclinical study](https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/) — Hacker News Best
-7. [Kimi Linear: An Expressive, Efficient Attention Architecture (2025)](https://arxiv.org/abs/2510.26692) — Hacker News Best
-8. [7.1 Earthquake in Japan](https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en) — Hacker News Best
-9. [Using an open model feels surprisingly good](https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/) — Hacker News Best
-10. [A $500 RL fine-tune of a 9B open model beat frontier models on catalog review](https://fermisense.com/when-machines-take-the-wheel/) — Hacker News Best
-11. [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) — GitHub Trending Python
-12. [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) — GitHub Trending Python
-13. [bradautomates/claude-video](https://github.com/bradautomates/claude-video) — GitHub Trending Python
-14. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — GitHub Trending Python
-15. [andrewyng/aisuite](https://github.com/andrewyng/aisuite) — GitHub Trending Python
-16. [usestrix/strix](https://github.com/usestrix/strix) — GitHub Trending Python
-17. [arc53/DocsGPT](https://github.com/arc53/DocsGPT) — GitHub Trending Python
-18. [home-assistant/core](https://github.com/home-assistant/core) — GitHub Trending Python
-19. [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) — GitHub Trending Python
-20. [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) — GitHub Trending Python
-21. [666ghj/MiroFish](https://github.com/666ghj/MiroFish) — GitHub Trending Python
-22. [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) — GitHub Trending Python
-23. [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) — GitHub Trending Python
-24. [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) — GitHub Trending Python
+1. [Kimi K3-256k](https://www.kimi.com/code/docs/en/kimi-code/models) — Hacker News Best
+2. [Superlogical](https://www.superlogical.com/) — Hacker News Best
+3. [Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac](https://github.com/drumih/turbo-fieldfare) — Hacker News Best
+4. [Handbook.md shows that long policy documents do not reliably govern agents](https://arxiv.org/abs/2607.25398) — Hacker News Best
+5. [Darktable](https://www.darktable.org/) — Hacker News Best
+6. [French musician Kavinsky found dead](https://www.euronews.com/culture/2026/07/29/dj-kavinsky-known-for-his-track-nightcall-found-dead-at-his-paris-home) — Hacker News Best
+7. [Document-borne AI worms can self-propagate through Copilot for Word](https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/) — Hacker News Best
+8. [KOReader](https://koreader.rocks/) — Hacker News Best
+9. [More Tailscale tricks for your jailbroken Kindle](https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes) — Hacker News Best
+10. [User Interfaces of the Demo Scene](https://www.datagubbe.se/scenegui/) — Hacker News Best
+11. [andrewyng/aisuite](https://github.com/andrewyng/aisuite) — GitHub Trending Python
+12. [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) — GitHub Trending Python
+13. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — GitHub Trending Python
+14. [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) — GitHub Trending Python
+15. [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) — GitHub Trending Python
+16. [bradautomates/claude-video](https://github.com/bradautomates/claude-video) — GitHub Trending Python
+17. [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) — GitHub Trending Python
+18. [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace) — GitHub Trending Python
+19. [usestrix/strix](https://github.com/usestrix/strix) — GitHub Trending Python
+20. [volcengine/OpenViking](https://github.com/volcengine/OpenViking) — GitHub Trending Python
+21. [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — GitHub Trending Python
+22. [lightseekorg/tokenspeed](https://github.com/lightseekorg/tokenspeed) — GitHub Trending Python
+23. [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) — GitHub Trending Python
+24. [arc53/DocsGPT](https://github.com/arc53/DocsGPT) — GitHub Trending Python
 
 ---
 
