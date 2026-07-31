@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-07-31 06:55:23)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-08-01 06:48:36)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,44 +6,46 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [UEFA and its national associations will not participate in FIFA competitions](https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/) 🌈 2026-07-30 |
+| **Hacker News Best** | [Tailscale didn't stop the Hugging Face intrusion](https://tailscale.com/blog/hugging-face-intrusion) 🌈 2026-07-31 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) 🌈 2026-07-30 |
+| **GitHub Trending Python** | [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) 🌈 2026-07-31 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-07-30)
+## 🕶️ 今日值得看 (2026-07-31)
 
-1. [UEFA and its national associations will not participate in FIFA competitions](https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/) — Hacker News Best
-2. [We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447](https://www.bottlenecklabs.com/blog/autonomously-run-businesses) — Hacker News Best
-3. [Advancing the price-performance frontier with GPT‑5.6](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/) — Hacker News Best
-4. [Read this before you buy that TV streaming stick](https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/) — Hacker News Best
-5. [Stacked PRs are now live on GitHub](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/) — Hacker News Best
-6. [Gemini Robotics 2 brings whole body intelligence to robots](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/) — Hacker News Best
-7. ['VPNs are lawful technical tools,' says EU Court in landmark copyright ruling](https://remysharp.com/links/2026-07-23-35890312) — Hacker News Best
-8. [Google will expand age checks on Android worldwide till the end of the year](https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html) — Hacker News Best
-9. [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) — GitHub Trending Python
-10. [deepfakes/faceswap](https://github.com/deepfakes/faceswap) — GitHub Trending Python
-11. [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) — GitHub Trending Python
-12. [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) — GitHub Trending Python
-13. [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) — GitHub Trending Python
+1. [Tailscale didn't stop the Hugging Face intrusion](https://tailscale.com/blog/hugging-face-intrusion) — Hacker News Best
+2. [qm](https://github.com/yc-software/qm) — Hacker News Best
+3. [Elevators](https://john.fun/elevators) — Hacker News Best
+4. [The End of an Era](https://hughhowey.com/the-end-of-an-era/) — Hacker News Best
+5. [DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis](https://artificialanalysis.ai/models/deepseek-v4-flash) — Hacker News Best
+6. [Google fixed more Chrome bugs in June than over the past two years, thanks to AI](https://blog.google/security/chrome-stronger-with-every-update/) — Hacker News Best
+7. [DeepSeek-V4-Flash Update](https://api-docs.deepseek.com/updates/) — Hacker News Best
+8. [JEP 401: Value Objects (Preview) merged to OpenJDK master](https://github.com/openjdk/jdk/pull/31120) — Hacker News Best
+9. [The session you cannot take with you](https://earendil.com/posts/session-portability/) — Hacker News Best
+10. [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) — GitHub Trending Python
+11. [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) — GitHub Trending Python
+12. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — GitHub Trending Python
+13. [ansible/ansible](https://github.com/ansible/ansible) — GitHub Trending Python
 14. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — GitHub Trending Python
-15. [sgl-project/sglang](https://github.com/sgl-project/sglang) — GitHub Trending Python
-16. [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker) — GitHub Trending Python
-17. [arc53/DocsGPT](https://github.com/arc53/DocsGPT) — GitHub Trending Python
-18. [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) — GitHub Trending Python
-19. [lightseekorg/tokenspeed](https://github.com/lightseekorg/tokenspeed) — GitHub Trending Python
-20. [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) — GitHub Trending Python
-21. [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) — GitHub Trending Python
-22. [polarsource/polar](https://github.com/polarsource/polar) — GitHub Trending Python
-23. [microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2) — GitHub Trending Python
-24. [fastapi/fastapi](https://github.com/fastapi/fastapi) — GitHub Trending Python
-25. [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) — GitHub Trending Python
+15. [microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2) — GitHub Trending Python
+16. [deepfakes/faceswap](https://github.com/deepfakes/faceswap) — GitHub Trending Python
+17. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — GitHub Trending Python
+18. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — GitHub Trending Python
+19. [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) — GitHub Trending Python
+20. [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) — GitHub Trending Python
+21. [odoo/odoo](https://github.com/odoo/odoo) — GitHub Trending Python
+22. [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) — GitHub Trending Python
+23. [github/awesome-copilot](https://github.com/github/awesome-copilot) — GitHub Trending Python
+24. [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) — GitHub Trending Python
+25. [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) — GitHub Trending Python
+26. [streamlit/streamlit](https://github.com/streamlit/streamlit) — GitHub Trending Python
+27. [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) — GitHub Trending Python
 
 ---
 
-共 **25** 篇今日新文章，来自 **2** 个 RSS 源。
+共 **27** 篇今日新文章，来自 **2** 个 RSS 源。
