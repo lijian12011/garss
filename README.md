@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-08-03 06:43:54)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-08-04 06:49:38)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,45 +6,52 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [How the words we teach English language learners changed](https://pudding.cool/2026/07/essential-words/) 🌈 2026-08-02 |
+| **Hacker News Best** | [Ten advances in mathematics and theoretical computer science](https://openai.com/index/ten-advances-in-mathematics/) 🌈 2026-08-03 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) 🌈 2026-08-02 |
+| **GitHub Trending Python** | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) 🌈 2026-08-03 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-08-02)
+## 🕶️ 今日值得看 (2026-08-03)
 
-1. [How the words we teach English language learners changed](https://pudding.cool/2026/07/essential-words/) — Hacker News Best
-2. [Meshdiff – visually compare two STL versions in the browser, client-side](https://meshdiff.com/) — Hacker News Best
-3. [Wikimedia Foundation refuses union recognition, hires union-busting law firm](https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-08-02/News_and_notes) — Hacker News Best
-4. [US Treasury undertakes historic intervention in yen market](https://www.ft.com/content/0f9b2fe7-bde4-4f5f-b49e-93ccb5da9ea8) — Hacker News Best
-5. [Running Kimi K3 on MI355X at Better Performance per Dollar Than B300](https://www.wafer.ai/blog/kimi-k3-mi355x) — Hacker News Best
-6. [Karpathy’s Pelican](https://twitter.com/karpathy/status/2083749667410727319) — Hacker News Best
-7. [Linux desktop market share has hit over 10% in North America](https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/) — Hacker News Best
-8. [Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built](https://github.com/tom-ilan/cycloidal_gearbox) — Hacker News Best
-9. [Go 1.27 Interactive Tour](https://victoriametrics.com/blog/go-1-27/index.html) — Hacker News Best
-10. [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) — GitHub Trending Python
-11. [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) — GitHub Trending Python
-12. [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) — GitHub Trending Python
-13. [ansible/ansible](https://github.com/ansible/ansible) — GitHub Trending Python
-14. [microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2) — GitHub Trending Python
-15. [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — GitHub Trending Python
-16. [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — GitHub Trending Python
-17. [SimplifyJobs/Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — GitHub Trending Python
-18. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — GitHub Trending Python
-19. [deepfakes/faceswap](https://github.com/deepfakes/faceswap) — GitHub Trending Python
-20. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — GitHub Trending Python
-21. [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) — GitHub Trending Python
-22. [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) — GitHub Trending Python
-23. [unslothai/unsloth](https://github.com/unslothai/unsloth) — GitHub Trending Python
-24. [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) — GitHub Trending Python
-25. [Zipstack/unstract](https://github.com/Zipstack/unstract) — GitHub Trending Python
-26. [github/awesome-copilot](https://github.com/github/awesome-copilot) — GitHub Trending Python
+1. [Ten advances in mathematics and theoretical computer science](https://openai.com/index/ten-advances-in-mathematics/) — Hacker News Best
+2. [Taylor Farms has rewritten its cyclospora statement four times in sixteen days](https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/) — Hacker News Best
+3. [Devtools must be open source](https://blog.exe.dev/devtools-must-be-open-source) — Hacker News Best
+4. [Andy Pavlo joins ClickHouse to establish ClickHouse Labs](https://clickhouse.com/blog/andy-pavlo-joins-clickhouse) — Hacker News Best
+5. [MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video](https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui) — Hacker News Best
+6. [Wind and solar overtake fossil fuels in Germany for the first time](https://www.intellinews.com/wind-and-solar-overtake-fossil-fuels-in-germany-for-the-first-time-ever-458379/) — Hacker News Best
+7. [SQLite Critical CVEs or LLM Slop?](https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/) — Hacker News Best
+8. [ICE Collected Nearly 1M People's DNA Last Year–Including Young Children](https://www.wired.com/story/ice-dna-collection-fbi-codis/) — Hacker News Best
+9. [Prevent cognitive debt by manually retyping LLM-generated code](https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/) — Hacker News Best
+10. [Bonsai: Janestreet's UI Library](https://github.com/janestreet/bonsai) — Hacker News Best
+11. [Rust project goals: Immobile types and guaranteed destructors](https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md) — Hacker News Best
+12. [Don't be a meat proxy](https://gruhn.me/blog/2026-08-03/) — Hacker News Best
+13. [More German than many Germans](https://mertbulan.com/more-german-than-many-germans/) — Hacker News Best
+14. [OpenAI's super PAC is funding AI-generated news site attacking industry critics](https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda) — Hacker News Best
+15. [Qwen3.8-Max: A New Bar for Coding and Cowork](https://qwen.ai/blog?id=qwen3.8) — Hacker News Best
+16. [Show HN: Isopolis – Isometric pixel map of SF](https://sf.isopolis.city/) — Hacker News Best
+17. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — GitHub Trending Python
+18. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — GitHub Trending Python
+19. [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) — GitHub Trending Python
+20. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — GitHub Trending Python
+21. [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo) — GitHub Trending Python
+22. [SimplifyJobs/Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — GitHub Trending Python
+23. [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — GitHub Trending Python
+24. [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) — GitHub Trending Python
+25. [ccxt/ccxt](https://github.com/ccxt/ccxt) — GitHub Trending Python
+26. [Emily2040/seedance-2.0](https://github.com/Emily2040/seedance-2.0) — GitHub Trending Python
+27. [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) — GitHub Trending Python
+28. [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) — GitHub Trending Python
+29. [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) — GitHub Trending Python
+30. [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) — GitHub Trending Python
+31. [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) — GitHub Trending Python
+32. [music-assistant/server](https://github.com/music-assistant/server) — GitHub Trending Python
+33. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — GitHub Trending Python
 
 ---
 
-共 **26** 篇今日新文章，来自 **2** 个 RSS 源。
+共 **33** 篇今日新文章，来自 **2** 个 RSS 源。
