@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-08-05 06:51:35)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-08-06 06:47:28)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,51 +6,46 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years](https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/) 🌈 2026-08-04 |
+| **Hacker News Best** | [Discovery Loop](https://www.discoveryloop.com/) 🌈 2026-08-05 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) 🌈 2026-08-04 |
+| **GitHub Trending Python** | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) 🌈 2026-08-05 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-08-04)
+## 🕶️ 今日值得看 (2026-08-05)
 
-1. [In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years](https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/) — Hacker News Best
-2. [All of Winona Police Department's Flock cameras cut down and stolen](https://www.valleynewslive.com/2026/08/04/every-flock-camera-winona-minnesota-cut-down-stolen-coordinated-theft/) — Hacker News Best
-3. [Apple says more ex-employees may have taken confidential data to OpenAI](https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/) — Hacker News Best
-4. [Show HN: Simple algorithm and color space to generate diverse skin tones](https://toneyalexander.github.io/inclusive-color-space/) — Hacker News Best
-5. [Xbox goes down. You can't play games you own on disc](https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/) — Hacker News Best
-6. [AI-Generated Images Discourage Me from Reading Your Blog](https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/) — Hacker News Best
-7. [U.S. used 'virtually all' of its long-range precision missiles during Iran war](https://www.cnbc.com/2026/08/04/us-has-used-virtually-all-of-its-long-range-precision-missiles-report.html) — Hacker News Best
-8. [Ray Bradbury's "There Will Come Soft Rains" is set today (2026-08-04)](https://short-stories.co/@raybradbury/there-will-come-soft-rains-6k8vr4xxlnmj) — Hacker News Best
-9. [DeepSeek V4 Flash on a Single AMD MI300X](https://github.com/ryanzhou/deepseek-v4-flash-mi300x) — Hacker News Best
-10. [FFmpeg 9.0](https://github.com/FFmpeg/FFmpeg/blob/n9.0/RELEASE_NOTES) — Hacker News Best
-11. [Harness engineering for self-improvement](https://lilianweng.github.io/posts/2026-07-04-harness/) — Hacker News Best
-12. [Apple is getting this wrong](https://openai.com/index/apple-is-getting-this-wrong/) — Hacker News Best
-13. [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) — GitHub Trending Python
-14. [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) — GitHub Trending Python
-15. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — GitHub Trending Python
-16. [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) — GitHub Trending Python
-17. [livekit/agents](https://github.com/livekit/agents) — GitHub Trending Python
+1. [Discovery Loop](https://www.discoveryloop.com/) — Hacker News Best
+2. [Demis Hassabis is moving from CEO to Chairman at Google DeepMind](https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai) — Hacker News Best
+3. [Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/) — Hacker News Best
+4. [Jeff Dean leaving Alphabet](https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html) — Hacker News Best
+5. [Cops Used Flock to Track a Man Across State Lines for a Pretextual Weed Search](https://www.404media.co/cops-used-flock-to-track-a-man-across-state-lines-to-create-pretext-to-search-his-car-for-weed/) — Hacker News Best
+6. [Cloudflare OS: an open platform for agents, apps, and work](https://blog.cloudflare.com/cloudflare-os/) — Hacker News Best
+7. [Civilian plane crash in New Mexico tied to military GPS blocking](https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/) — Hacker News Best
+8. [huangruiteng/loopx](https://github.com/huangruiteng/loopx) — GitHub Trending Python
+9. [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) — GitHub Trending Python
+10. [roboflow/supervision](https://github.com/roboflow/supervision) — GitHub Trending Python
+11. [uber/ADR](https://github.com/uber/ADR) — GitHub Trending Python
+12. [Comfy-Org/workflow_templates](https://github.com/Comfy-Org/workflow_templates) — GitHub Trending Python
+13. [mpfaffenberger/code_puppy](https://github.com/mpfaffenberger/code_puppy) — GitHub Trending Python
+14. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — GitHub Trending Python
+15. [didilili/ai-agents-from-zero](https://github.com/didilili/ai-agents-from-zero) — GitHub Trending Python
+16. [blader/humanizer](https://github.com/blader/humanizer) — GitHub Trending Python
+17. [NovaSky-AI/SkyRL](https://github.com/NovaSky-AI/SkyRL) — GitHub Trending Python
 18. [SimplifyJobs/Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — GitHub Trending Python
-19. [microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2) — GitHub Trending Python
-20. [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) — GitHub Trending Python
-21. [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — GitHub Trending Python
-22. [comet-ml/opik](https://github.com/comet-ml/opik) — GitHub Trending Python
-23. [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) — GitHub Trending Python
-24. [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course) — GitHub Trending Python
-25. [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) — GitHub Trending Python
-26. [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) — GitHub Trending Python
-27. [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) — GitHub Trending Python
-28. [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) — GitHub Trending Python
-29. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — GitHub Trending Python
-30. [PostHog/posthog](https://github.com/PostHog/posthog) — GitHub Trending Python
-31. [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) — GitHub Trending Python
-32. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — GitHub Trending Python
+19. [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech) — GitHub Trending Python
+20. [usestrix/strix](https://github.com/usestrix/strix) — GitHub Trending Python
+21. [anandprtp/Antra](https://github.com/anandprtp/Antra) — GitHub Trending Python
+22. [BerriAI/litellm](https://github.com/BerriAI/litellm) — GitHub Trending Python
+23. [browser-use/video-use](https://github.com/browser-use/video-use) — GitHub Trending Python
+24. [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) — GitHub Trending Python
+25. [iam-veeramalla/aws-devops-zero-to-hero](https://github.com/iam-veeramalla/aws-devops-zero-to-hero) — GitHub Trending Python
+26. [sierra-research/tau2-bench](https://github.com/sierra-research/tau2-bench) — GitHub Trending Python
+27. [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — GitHub Trending Python
 
 ---
 
-共 **32** 篇今日新文章，来自 **2** 个 RSS 源。
+共 **27** 篇今日新文章，来自 **2** 个 RSS 源。
