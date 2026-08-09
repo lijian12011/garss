@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-08-09 06:15:58)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-08-10 06:17:23)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,46 +6,41 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating](https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/) 🌈 2026-08-08 |
+| **Hacker News Best** | [How I use LLMs to learn complex topics](https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/) 🌈 2026-08-09 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [goauthentik/authentik](https://github.com/goauthentik/authentik) 🌈 2026-08-08 |
+| **GitHub Trending Python** | [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) 🌈 2026-08-09 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-08-08)
+## 🕶️ 今日值得看 (2026-08-09)
 
-1. [Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating](https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/) — Hacker News Best
-2. [Fastmail offers EU data region](https://www.fastmail.com/blog/fastmail-offers-eu-data-region/) — Hacker News Best
-3. ["Code was never the hard part" is an insult to all programmers](https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers) — Hacker News Best
-4. [A domain can now say it is for sale, in DNS](https://specification.website/spec/foundations/for-sale-dns/) — Hacker News Best
-5. [Timeline of the OpenAI accidental attack against Hugging Face](https://simonwillison.net/2026/Aug/7/openai-timeline/) — Hacker News Best
-6. [New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.](https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html) — Hacker News Best
-7. [DeepMind's WeatherNext model achieves breakthrough forecasting cyclones](https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/) — Hacker News Best
-8. [Hardware backdoors in some x86 CPUs](https://github.com/xoreaxeaxeax/rosenbridge) — Hacker News Best
-9. [NASA figured out how to keep its Voyager 2 probe running for another year](https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year) — Hacker News Best
-10. [The Nixpkgs core team has disbanded](https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413) — Hacker News Best
+1. [How I use LLMs to learn complex topics](https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/) — Hacker News Best
+2. [Silicon Valley misreads science fiction and undermines democracy](https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/) — Hacker News Best
+3. [Windows 11's built-in Weather app wastes more than 1 GB of RAM](https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html) — Hacker News Best
+4. [Tom Stanton's supersonic trebuchet breaks sound barrier with gravity alone](https://www.techeblog.com/tom-stanton-supersonic-trebuchet/) — Hacker News Best
+5. [Mea Culpa – Dark Hours](https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html) — Hacker News Best
+6. [The original URL for this prediction will no longer be available in 11 years (2011)](http://longbets.org/601/) — Hacker News Best
+7. [Retraction: The App Store Rejection of the Week That Was a Correct Rejection](https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week) — Hacker News Best
+8. [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) — GitHub Trending Python
+9. [google-deepmind/weathernext](https://github.com/google-deepmind/weathernext) — GitHub Trending Python
+10. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) — GitHub Trending Python
 11. [goauthentik/authentik](https://github.com/goauthentik/authentik) — GitHub Trending Python
-12. [semantica-agi/semantica](https://github.com/semantica-agi/semantica) — GitHub Trending Python
-13. [666ghj/MiroFish](https://github.com/666ghj/MiroFish) — GitHub Trending Python
-14. [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — GitHub Trending Python
-15. [google/skills](https://github.com/google/skills) — GitHub Trending Python
-16. [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — GitHub Trending Python
-17. [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) — GitHub Trending Python
-18. [android/skills](https://github.com/android/skills) — GitHub Trending Python
-19. [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) — GitHub Trending Python
-20. [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) — GitHub Trending Python
-21. [p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird) — GitHub Trending Python
-22. [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) — GitHub Trending Python
-23. [huangruiteng/loopx](https://github.com/huangruiteng/loopx) — GitHub Trending Python
-24. [wshobson/agents](https://github.com/wshobson/agents) — GitHub Trending Python
-25. [anthropics/claude-code](https://github.com/anthropics/claude-code) — GitHub Trending Python
-26. [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech) — GitHub Trending Python
-27. [kijai/ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes) — GitHub Trending Python
+12. [google/skills](https://github.com/google/skills) — GitHub Trending Python
+13. [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — GitHub Trending Python
+14. [harveyai/harvey-labs](https://github.com/harveyai/harvey-labs) — GitHub Trending Python
+15. [funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC) — GitHub Trending Python
+16. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — GitHub Trending Python
+17. [vladmandic/sdnext](https://github.com/vladmandic/sdnext) — GitHub Trending Python
+18. [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI) — GitHub Trending Python
+19. [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) — GitHub Trending Python
+20. [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) — GitHub Trending Python
+21. [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — GitHub Trending Python
+22. [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — GitHub Trending Python
 
 ---
 
-共 **27** 篇今日新文章，来自 **2** 个 RSS 源。
+共 **22** 篇今日新文章，来自 **2** 个 RSS 源。
