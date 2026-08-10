@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-08-10 06:17:23)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-08-11 06:24:40)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,41 +6,44 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [How I use LLMs to learn complex topics](https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/) 🌈 2026-08-09 |
+| **Hacker News Best** | [Mars Bar from 1991 found – and it's 20g bigger than today's](https://www.bbc.com/news/articles/c1j1kjy7gewo) 🌈 2026-08-10 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) 🌈 2026-08-09 |
+| **GitHub Trending Python** | [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) 🌈 2026-08-10 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-08-09)
+## 🕶️ 今日值得看 (2026-08-10)
 
-1. [How I use LLMs to learn complex topics](https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/) — Hacker News Best
-2. [Silicon Valley misreads science fiction and undermines democracy](https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/) — Hacker News Best
-3. [Windows 11's built-in Weather app wastes more than 1 GB of RAM](https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html) — Hacker News Best
-4. [Tom Stanton's supersonic trebuchet breaks sound barrier with gravity alone](https://www.techeblog.com/tom-stanton-supersonic-trebuchet/) — Hacker News Best
-5. [Mea Culpa – Dark Hours](https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html) — Hacker News Best
-6. [The original URL for this prediction will no longer be available in 11 years (2011)](http://longbets.org/601/) — Hacker News Best
-7. [Retraction: The App Store Rejection of the Week That Was a Correct Rejection](https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week) — Hacker News Best
-8. [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) — GitHub Trending Python
-9. [google-deepmind/weathernext](https://github.com/google-deepmind/weathernext) — GitHub Trending Python
-10. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) — GitHub Trending Python
-11. [goauthentik/authentik](https://github.com/goauthentik/authentik) — GitHub Trending Python
-12. [google/skills](https://github.com/google/skills) — GitHub Trending Python
-13. [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — GitHub Trending Python
-14. [harveyai/harvey-labs](https://github.com/harveyai/harvey-labs) — GitHub Trending Python
-15. [funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC) — GitHub Trending Python
-16. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — GitHub Trending Python
-17. [vladmandic/sdnext](https://github.com/vladmandic/sdnext) — GitHub Trending Python
-18. [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI) — GitHub Trending Python
-19. [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) — GitHub Trending Python
-20. [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) — GitHub Trending Python
-21. [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — GitHub Trending Python
-22. [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — GitHub Trending Python
+1. [Mars Bar from 1991 found – and it's 20g bigger than today's](https://www.bbc.com/news/articles/c1j1kjy7gewo) — Hacker News Best
+2. [Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models](https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878) — Hacker News Best
+3. [Mistral Patent for “Code implemented tool calls”](https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html) — Hacker News Best
+4. [Tl;dv: Over 180k meetings left wide open](https://bobdahacker.com/blog/tldv-hack) — Hacker News Best
+5. [Squeak 6.1](https://squeak.org/release_notes/6.1/) — Hacker News Best
+6. [Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model) — Hacker News Best
+7. [Docker Sandboxes – Disposable, isolated sandboxes for AI agents](https://www.docker.com/products/docker-sandboxes/) — Hacker News Best
+8. [Auto mode is now the default in Claude Code](https://claude.com/blog/auto-mode-default-in-claude-code) — Hacker News Best
+9. [Show HN: Voice driven murder mystery, Interview AI suspects with your voice](https://www.whodunnitai.com/) — Hacker News Best
+10. [What Happened to HackerOne?](https://blog.teknogeek.io/posts/what-happened-to-hackerone/) — Hacker News Best
+11. [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) — GitHub Trending Python
+12. [google-deepmind/weathernext](https://github.com/google-deepmind/weathernext) — GitHub Trending Python
+13. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) — GitHub Trending Python
+14. [goauthentik/authentik](https://github.com/goauthentik/authentik) — GitHub Trending Python
+15. [google/skills](https://github.com/google/skills) — GitHub Trending Python
+16. [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — GitHub Trending Python
+17. [harveyai/harvey-labs](https://github.com/harveyai/harvey-labs) — GitHub Trending Python
+18. [funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC) — GitHub Trending Python
+19. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — GitHub Trending Python
+20. [vladmandic/sdnext](https://github.com/vladmandic/sdnext) — GitHub Trending Python
+21. [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI) — GitHub Trending Python
+22. [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) — GitHub Trending Python
+23. [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) — GitHub Trending Python
+24. [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — GitHub Trending Python
+25. [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — GitHub Trending Python
 
 ---
 
-共 **22** 篇今日新文章，来自 **2** 个 RSS 源。
+共 **25** 篇今日新文章，来自 **2** 个 RSS 源。
