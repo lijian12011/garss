@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-08-24 06:10:04)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-08-25 06:13:44)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,47 +6,47 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [How Complex Systems Fail](https://how.complexsystems.fail/) 🌈 2026-08-23 |
+| **Hacker News Best** | [Oceans hit highest temperature on record](https://www.bbc.com/news/articles/c62m4gpnp78o) 🌈 2026-08-24 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [anthropics/claude-code](https://github.com/anthropics/claude-code) 🌈 2026-08-23 |
+| **GitHub Trending Python** | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) 🌈 2026-08-24 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-08-23)
+## 🕶️ 今日值得看 (2026-08-24)
 
-1. [How Complex Systems Fail](https://how.complexsystems.fail/) — Hacker News Best
-2. [Slovakia finds Russian backdoor in traffic speed cameras](https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/) — Hacker News Best
-3. [What Is a Harness?](https://earendil.com/posts/what-is-a-harness/) — Hacker News Best
-4. [I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day](https://ericpardee.github.io/fire-hd-ownership/) — Hacker News Best
-5. [My favorite nonfiction books about cults, scams, and schemes](https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes) — Hacker News Best
-6. [Malware infects Android-based automotive head unit firmware](https://securelist.com/android-head-unit-malware/121106/) — Hacker News Best
-7. [I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes](https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/) — Hacker News Best
-8. [Wi-Fi 8 is the first wireless upgrade in years that isn't chasing speed](https://www.xda-developers.com/wi-fi-8-first-wireless-upgrade-years-isnt-chasing-speed-home-networks-need-it/) — Hacker News Best
-9. [JIT Compiling Code in 5μs](https://malisper.me/jit-compiling-code-in-5-us/) — Hacker News Best
-10. [The End of an Athlon](http://www.os2museum.com/wp/the-end-of-an-athlon/) — Hacker News Best
-11. [To become a better writer, read as much as you can](https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/) — Hacker News Best
-12. [MartyPC is a cross-platform emulator of early PCs written in Rust](https://martypc.net/) — Hacker News Best
-13. [The Art and Beauty of Blade Runner (2015)](https://nappertime.com/the-art-of-and-beauty-of-blade-runner/) — Hacker News Best
-14. [anthropics/claude-code](https://github.com/anthropics/claude-code) — GitHub Trending Python
-15. [PostHog/posthog](https://github.com/PostHog/posthog) — GitHub Trending Python
-16. [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) — GitHub Trending Python
-17. [shy3130/tickflow-stock-panel](https://github.com/shy3130/tickflow-stock-panel) — GitHub Trending Python
-18. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — GitHub Trending Python
-19. [forcedotcom/sf-skills](https://github.com/forcedotcom/sf-skills) — GitHub Trending Python
-20. [anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) — GitHub Trending Python
-21. [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — GitHub Trending Python
-22. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — GitHub Trending Python
-23. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — GitHub Trending Python
-24. [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) — GitHub Trending Python
-25. [vllm-project/vllm](https://github.com/vllm-project/vllm) — GitHub Trending Python
-26. [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) — GitHub Trending Python
-27. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — GitHub Trending Python
-28. [browser-use/browser-harness](https://github.com/browser-use/browser-harness) — GitHub Trending Python
-29. [google/adk-samples](https://github.com/google/adk-samples) — GitHub Trending Python
+1. [Oceans hit highest temperature on record](https://www.bbc.com/news/articles/c62m4gpnp78o) — Hacker News Best
+2. [The entire city of San Francisco as a video game](https://sf.thijs.gg/) — Hacker News Best
+3. [Coding expertise is going to collapse from AI reliance](https://larsfaye.com/articles/ai-coding-will-prevent-expertise) — Hacker News Best
+4. [IPFS Maintainers Winding Down](https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/) — Hacker News Best
+5. [MS Paint and Photos inivisibly watermark even locally generated output with GUID](https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/) — Hacker News Best
+6. [OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)](https://developers.openai.com/api/docs/pricing) — Hacker News Best
+7. [Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded](https://twitter.com/lemire/status/2091894299289874926) — Hacker News Best
+8. [How Europe is killing makers and micro-entrepreneurs](https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs) — Hacker News Best
+9. [Andreessen Horowitz is investing billions into a bleak future](https://www.modelrepublic.org/articles/a16z-portfolio) — Hacker News Best
+10. [New EU-wide product repair rules come into force](https://www.rte.ie/news/business/2026/0824/1588931-repair-rules/) — Hacker News Best
+11. [Executable Is a SQLite Database](https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database) — Hacker News Best
+12. [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) — GitHub Trending Python
+13. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — GitHub Trending Python
+14. [anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) — GitHub Trending Python
+15. [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — GitHub Trending Python
+16. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — GitHub Trending Python
+17. [elder-plinius/OBLITERATUS](https://github.com/elder-plinius/OBLITERATUS) — GitHub Trending Python
+18. [PostHog/posthog](https://github.com/PostHog/posthog) — GitHub Trending Python
+19. [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — GitHub Trending Python
+20. [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech) — GitHub Trending Python
+21. [anthropics/claude-code](https://github.com/anthropics/claude-code) — GitHub Trending Python
+22. [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) — GitHub Trending Python
+23. [django/django](https://github.com/django/django) — GitHub Trending Python
+24. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — GitHub Trending Python
+25. [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) — GitHub Trending Python
+26. [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) — GitHub Trending Python
+27. [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — GitHub Trending Python
+28. [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) — GitHub Trending Python
+29. [666ghj/MiroFish](https://github.com/666ghj/MiroFish) — GitHub Trending Python
 
 ---
 
