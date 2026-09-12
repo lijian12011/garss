@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-09-12 07:37:53)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-09-13 07:30:10)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,40 +6,43 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [The EPA is planning to scrap public review rules for data center pollution](https://capitalbnews.org/data-centers-permit-rules-epa/) 🌈 2026-09-11 |
+| **Hacker News Best** | [An open letter to Dario: if you mean it, open the weights](https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/) 🌈 2026-09-12 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 🌈 2026-09-11 |
+| **GitHub Trending Python** | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 🌈 2026-09-12 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-09-11)
+## 🕶️ 今日值得看 (2026-09-12)
 
-1. [The EPA is planning to scrap public review rules for data center pollution](https://capitalbnews.org/data-centers-permit-rules-epa/) — Hacker News Best
-2. [A misalignment of AI in mathematics](https://mathandai.org/) — Hacker News Best
-3. [Houthis 'take control' of key island in global shipping route](https://www.bbc.com/news/live/cmd683p01eljt) — Hacker News Best
-4. [Ask HN: Can we please limit the AI news flood?](https://news.ycombinator.com/item?id=49657850) — Hacker News Best
-5. [The Waymo effect: how AI is quietly making research less collaborative](https://www.researchagenda.news/articles/the-waymo-effect.html) — Hacker News Best
-6. [Claude is only available to people over 18 years](https://support.claude.com/en/articles/15171100-age-assurance-on-claude) — Hacker News Best
-7. [Astra for Coding: Why Are We Doing This Again?](https://lucumr.pocoo.org/2026/9/7/astra-why/) — Hacker News Best
-8. [Mexican student creates an acoustic fire extinguisher to put out fire in seconds](https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/) — Hacker News Best
-9. [Google will buy half the electricity from one of Finland's nuclear power plants](https://www.bbc.com/news/articles/c8r6y4me2g6o) — Hacker News Best
+1. [An open letter to Dario: if you mean it, open the weights](https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/) — Hacker News Best
+2. [Make your first edit to OpenStreetMap](https://high5apps.github.io/josm-plugin-website-wizard/) — Hacker News Best
+3. [Nvidia is the central bank of AI](https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai) — Hacker News Best
+4. [We must pace the frontier](https://darioamodei.com/post/we-must-pace-the-frontier) — Hacker News Best
+5. [Fuck it, make it anyway](https://www.joelotter.com/posts/2026/09/make-it-anyway/) — Hacker News Best
+6. [Retrospectively Reverse-Engineering Apple's Neural Engine](https://eiln.github.io/posts/ane.html) — Hacker News Best
+7. [Navier-Stokes Announcement](https://www.claymath.org/news/navier-stokes-announcement/) — Hacker News Best
+8. [google.com/goto: Google's anti-scraping update](https://www.autom.dev/blog/google-search-goto-links) — Hacker News Best
+9. [Pandas Should Go Extinct](https://eddie.codes/posts/pandas-should-go-extinct/) — Hacker News Best
 10. [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — GitHub Trending Python
-11. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — GitHub Trending Python
-12. [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) — GitHub Trending Python
-13. [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM) — GitHub Trending Python
-14. [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — GitHub Trending Python
-15. [openai/skills](https://github.com/openai/skills) — GitHub Trending Python
-16. [gpustack/gpustack](https://github.com/gpustack/gpustack) — GitHub Trending Python
-17. [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) — GitHub Trending Python
-18. [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) — GitHub Trending Python
-19. [google-deepmind/alphagenome](https://github.com/google-deepmind/alphagenome) — GitHub Trending Python
-20. [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) — GitHub Trending Python
-21. [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) — GitHub Trending Python
+11. [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) — GitHub Trending Python
+12. [jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch) — GitHub Trending Python
+13. [github/spec-kit](https://github.com/github/spec-kit) — GitHub Trending Python
+14. [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice) — GitHub Trending Python
+15. [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — GitHub Trending Python
+16. [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) — GitHub Trending Python
+17. [SimplifyJobs/Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — GitHub Trending Python
+18. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — GitHub Trending Python
+19. [bobeff/open-source-games](https://github.com/bobeff/open-source-games) — GitHub Trending Python
+20. [datahub-project/datahub](https://github.com/datahub-project/datahub) — GitHub Trending Python
+21. [volcengine/OpenViking](https://github.com/volcengine/OpenViking) — GitHub Trending Python
+22. [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) — GitHub Trending Python
+23. [NVIDIA/garak](https://github.com/NVIDIA/garak) — GitHub Trending Python
+24. [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) — GitHub Trending Python
 
 ---
 
-共 **21** 篇今日新文章，来自 **2** 个 RSS 源。
+共 **24** 篇今日新文章，来自 **2** 个 RSS 源。
