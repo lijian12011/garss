@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-09-18 07:46:56)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-09-19 07:42:39)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,46 +6,46 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [Everybody's Lost Their Minds](https://www.netmeister.org/blog/everybodys-lost-their-minds.html) 🌈 2026-09-17 |
+| **Hacker News Best** | [Claude Code now reads AGENTS.md if there is no Claude.md](https://code.claude.com/docs/en/changelog) 🌈 2026-09-18 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) 🌈 2026-09-17 |
+| **GitHub Trending Python** | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) 🌈 2026-09-18 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-09-17)
+## 🕶️ 今日值得看 (2026-09-18)
 
-1. [Everybody's Lost Their Minds](https://www.netmeister.org/blog/everybodys-lost-their-minds.html) — Hacker News Best
-2. [Hister: A private search engine for the pages you visit and the files you keep](https://github.com/asciimoo/hister) — Hacker News Best
-3. [Canada welcomes EU proposal to become 'associate member'](https://www.bbc.com/news/articles/cwly7vkke4jxo) — Hacker News Best
-4. [Iran school bombing: grounds to believe US was behind atrocity, UN finds](https://www.theguardian.com/world/2026/sep/17/iran-school-bombing-un-mission-us-military-behind-attack) — Hacker News Best
-5. [Neovim have a ~$800k Bitcoin donation sitting untouched since 2023](https://news.ycombinator.com/item?id=49738879) — Hacker News Best
-6. [AI safety is mostly a sex cult](https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q) — Hacker News Best
-7. [How GLM built its own inference infrastructure](https://z.ai/blog/glm-built-its-inference-infrastructure) — Hacker News Best
-8. [One year of sponsored Servo development](https://servo.org/blog/2026/09/15/one-year-of-sponsorship/) — Hacker News Best
-9. [CCC invites all model citizens to 40C3](https://events.ccc.de/en/2026/09/12/40c3-model-citizens/) — Hacker News Best
-10. [Keys Not Included: recovering the signing keys for US driver's license barcodes](https://ryan.science/blog/keys-not-included) — Hacker News Best
-11. [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — GitHub Trending Python
-12. [roboflow/supervision](https://github.com/roboflow/supervision) — GitHub Trending Python
-13. [rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes) — GitHub Trending Python
-14. [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) — GitHub Trending Python
-15. [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE) — GitHub Trending Python
+1. [Claude Code now reads AGENTS.md if there is no Claude.md](https://code.claude.com/docs/en/changelog) — Hacker News Best
+2. [Android 17 is the first since 3.x to add new APIs without releasing to the AOSP](https://grapheneos.social/@GrapheneOS/117282080803799576) — Hacker News Best
+3. [US Military had close call after using AI for hallucinated intelligence report](https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship) — Hacker News Best
+4. [Cloudflare Quick Tunnels](https://try.cloudflare.com/) — Hacker News Best
+5. [I don't like passkeys](https://hawksley.dev/blog/i-dont-like-passkeys) — Hacker News Best
+6. [Bend 2 and the Vibe-Coding Trap](https://blog.liampwll.com/posts/bend_vibe_coding/) — Hacker News Best
+7. [Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him](https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html) — Hacker News Best
+8. [ZCode, the GLM coding agent, silently uploads your Git history](https://tokenstead.ai/guides/zcode-silent-git-history-upload) — Hacker News Best
+9. [Microsoft exec called AI scraping 'the largest theft of labor in human history'](https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/) — Hacker News Best
+10. [OpenJev](https://openjev.com/) — Hacker News Best
+11. [Jemalloc 5.4.0](https://github.com/jemalloc/jemalloc/releases/tag/5.4.0) — Hacker News Best
+12. [The scourge of x86 emulation](https://fex-emu.com/Scourge-of-emulation/) — Hacker News Best
+13. [A heap overflow and SSO misconfiguration to compromise OpenAI internal repos](https://www.hacktron.ai/blog/hacking-openai) — Hacker News Best
+14. [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — GitHub Trending Python
+15. [roboflow/supervision](https://github.com/roboflow/supervision) — GitHub Trending Python
 16. [TencentCloud/Octop](https://github.com/TencentCloud/Octop) — GitHub Trending Python
-17. [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video) — GitHub Trending Python
-18. [bobeff/open-source-games](https://github.com/bobeff/open-source-games) — GitHub Trending Python
-19. [666ghj/MiroFish](https://github.com/666ghj/MiroFish) — GitHub Trending Python
-20. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — GitHub Trending Python
-21. [Q00/ouroboros](https://github.com/Q00/ouroboros) — GitHub Trending Python
-22. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — GitHub Trending Python
-23. [volcengine/OpenViking](https://github.com/volcengine/OpenViking) — GitHub Trending Python
-24. [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) — GitHub Trending Python
-25. [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) — GitHub Trending Python
-26. [wshobson/agents](https://github.com/wshobson/agents) — GitHub Trending Python
-27. [google/skills](https://github.com/google/skills) — GitHub Trending Python
-28. [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) — GitHub Trending Python
+17. [arnegiacomo/fugleramme](https://github.com/arnegiacomo/fugleramme) — GitHub Trending Python
+18. [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) — GitHub Trending Python
+19. [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) — GitHub Trending Python
+20. [google-research/timesfm](https://github.com/google-research/timesfm) — GitHub Trending Python
+21. [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) — GitHub Trending Python
+22. [LLMQuant/quant-mind](https://github.com/LLMQuant/quant-mind) — GitHub Trending Python
+23. [wilbowes/EchoMuse](https://github.com/wilbowes/EchoMuse) — GitHub Trending Python
+24. [trailofbits/skills](https://github.com/trailofbits/skills) — GitHub Trending Python
+25. [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) — GitHub Trending Python
+26. [hao-ai-lab/FastVideo](https://github.com/hao-ai-lab/FastVideo) — GitHub Trending Python
+27. [pytorch/pytorch](https://github.com/pytorch/pytorch) — GitHub Trending Python
+28. [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) — GitHub Trending Python
 
 ---
 
