@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-09-30 08:50:10)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-10-01 08:53:56)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,31 +6,31 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [Dots: Always-on agents](https://openai.com/index/introducing-dots/)  2026-09-29 |
+| **Hacker News Best** | [Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)  2026-09-30 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) 🌈 2026-09-30 |
+| **GitHub Trending Python** | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) 🌈 2026-10-01 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-09-30)
+## 🕶️ 今日值得看 (2026-10-01)
 
 1. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — GitHub Trending Python
 2. [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) — GitHub Trending Python
-3. [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) — GitHub Trending Python
-4. [ashhart/TensorFold](https://github.com/ashhart/TensorFold) — GitHub Trending Python
-5. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — GitHub Trending Python
-6. [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) — GitHub Trending Python
-7. [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — GitHub Trending Python
-8. [samugit83/redamon](https://github.com/samugit83/redamon) — GitHub Trending Python
-9. [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) — GitHub Trending Python
-10. [agent0ai/agent-zero](https://github.com/agent0ai/agent-zero) — GitHub Trending Python
-11. [Rizzo-AI-Academy/rizzo-pii](https://github.com/Rizzo-AI-Academy/rizzo-pii) — GitHub Trending Python
-12. [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie) — GitHub Trending Python
-13. [topoteretes/cognee](https://github.com/topoteretes/cognee) — GitHub Trending Python
+3. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — GitHub Trending Python
+4. [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) — GitHub Trending Python
+5. [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) — GitHub Trending Python
+6. [SemiAnalysisAI/InferenceX](https://github.com/SemiAnalysisAI/InferenceX) — GitHub Trending Python
+7. [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) — GitHub Trending Python
+8. [TencentCloud/Octop](https://github.com/TencentCloud/Octop) — GitHub Trending Python
+9. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — GitHub Trending Python
+10. [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — GitHub Trending Python
+11. [mem0ai/mem0](https://github.com/mem0ai/mem0) — GitHub Trending Python
+12. [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) — GitHub Trending Python
+13. [Q00/ouroboros](https://github.com/Q00/ouroboros) — GitHub Trending Python
 
 ---
 
