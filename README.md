@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-10-01 08:53:56)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-10-02 09:09:26)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,32 +6,38 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)  2026-09-30 |
+| **Hacker News Best** | [Pi 1.0](https://earendil.com/posts/pi-1-0/)  2026-10-01 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) 🌈 2026-10-01 |
+| **GitHub Trending Python** | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) 🌈 2026-10-02 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-10-01)
+## 🕶️ 今日值得看 (2026-10-02)
 
 1. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — GitHub Trending Python
-2. [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) — GitHub Trending Python
-3. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — GitHub Trending Python
+2. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — GitHub Trending Python
+3. [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — GitHub Trending Python
 4. [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) — GitHub Trending Python
-5. [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) — GitHub Trending Python
-6. [SemiAnalysisAI/InferenceX](https://github.com/SemiAnalysisAI/InferenceX) — GitHub Trending Python
-7. [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) — GitHub Trending Python
-8. [TencentCloud/Octop](https://github.com/TencentCloud/Octop) — GitHub Trending Python
-9. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — GitHub Trending Python
-10. [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — GitHub Trending Python
-11. [mem0ai/mem0](https://github.com/mem0ai/mem0) — GitHub Trending Python
-12. [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) — GitHub Trending Python
-13. [Q00/ouroboros](https://github.com/Q00/ouroboros) — GitHub Trending Python
+5. [VectifyAI/OpenKB](https://github.com/VectifyAI/OpenKB) — GitHub Trending Python
+6. [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) — GitHub Trending Python
+7. [TencentCloud/Octop](https://github.com/TencentCloud/Octop) — GitHub Trending Python
+8. [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) — GitHub Trending Python
+9. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — GitHub Trending Python
+10. [Mafifrizi/ARES](https://github.com/Mafifrizi/ARES) — GitHub Trending Python
+11. [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) — GitHub Trending Python
+12. [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws) — GitHub Trending Python
+13. [github/spec-kit](https://github.com/github/spec-kit) — GitHub Trending Python
+14. [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — GitHub Trending Python
+15. [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) — GitHub Trending Python
+16. [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) — GitHub Trending Python
+17. [qbittorrent/search-plugins](https://github.com/qbittorrent/search-plugins) — GitHub Trending Python
+18. [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) — GitHub Trending Python
+19. [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) — GitHub Trending Python
 
 ---
 
-共 **13** 篇今日新文章，来自 **2** 个 RSS 源。
+共 **19** 篇今日新文章，来自 **2** 个 RSS 源。
