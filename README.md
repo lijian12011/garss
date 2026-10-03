@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-10-02 09:09:26)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-10-03 08:48:08)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,17 +6,17 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [Pi 1.0](https://earendil.com/posts/pi-1-0/)  2026-10-01 |
+| **Hacker News Best** | [Apple Pass Designer](https://developer.apple.com/pass-designer/)  2026-10-02 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) 🌈 2026-10-02 |
+| **GitHub Trending Python** | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) 🌈 2026-10-03 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-10-02)
+## 🕶️ 今日值得看 (2026-10-03)
 
 1. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — GitHub Trending Python
 2. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — GitHub Trending Python
