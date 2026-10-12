@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-10-11 08:34:37)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-10-12 08:48:14)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,31 +6,31 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [Bitwarden Dual License Model](https://community.bitwarden.com/t/published-version-update-in-app-stores/102750)  2026-10-10 |
+| **Hacker News Best** | [So, You’d Like To Sell Your Print Issues Of The Onion?](https://theonion.com/archivehunt/)  2026-10-11 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) 🌈 2026-10-11 |
+| **GitHub Trending Python** | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 🌈 2026-10-12 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-10-11)
+## 🕶️ 今日值得看 (2026-10-12)
 
-1. [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — GitHub Trending Python
-2. [BerriAI/litellm](https://github.com/BerriAI/litellm) — GitHub Trending Python
-3. [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) — GitHub Trending Python
-4. [Tencent-Hunyuan/Hy-MT2](https://github.com/Tencent-Hunyuan/Hy-MT2) — GitHub Trending Python
-5. [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — GitHub Trending Python
-6. [unslothai/unsloth](https://github.com/unslothai/unsloth) — GitHub Trending Python
-7. [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) — GitHub Trending Python
-8. [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) — GitHub Trending Python
-9. [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) — GitHub Trending Python
-10. [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) — GitHub Trending Python
-11. [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) — GitHub Trending Python
-12. [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) — GitHub Trending Python
-13. [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) — GitHub Trending Python
+1. [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) — GitHub Trending Python
+2. [pytorch/pytorch](https://github.com/pytorch/pytorch) — GitHub Trending Python
+3. [huggingface/transformers](https://github.com/huggingface/transformers) — GitHub Trending Python
+4. [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — GitHub Trending Python
+5. [fastapi/fastapi](https://github.com/fastapi/fastapi) — GitHub Trending Python
+6. [home-assistant/core](https://github.com/home-assistant/core) — GitHub Trending Python
+7. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — GitHub Trending Python
+8. [derv82/wifit3](https://github.com/derv82/wifit3) — GitHub Trending Python
+9. [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) — GitHub Trending Python
+10. [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) — GitHub Trending Python
+11. [sgl-project/sglang](https://github.com/sgl-project/sglang) — GitHub Trending Python
+12. [microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2) — GitHub Trending Python
+13. [BitterSecurity/Decepticon](https://github.com/BitterSecurity/Decepticon) — GitHub Trending Python
 
 ---
 
