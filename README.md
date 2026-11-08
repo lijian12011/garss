@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-07 09:22:35)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-08 08:58:04)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,36 +6,39 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost](https://hightouch.com/blog/llm-judges-identity-resolution)  2026-11-06 |
+| **Hacker News Best** | [What I run on my $10 USD OpenStick homelab](https://blog.bosscher.ch/posts/openstick/)  2026-11-07 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) 🌈 2026-11-07 |
+| **GitHub Trending Python** | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) 🌈 2026-11-08 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-11-07)
+## 🕶️ 今日值得看 (2026-11-08)
 
 1. [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) — GitHub Trending Python
-2. [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) — GitHub Trending Python
-3. [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — GitHub Trending Python
-4. [google/skills](https://github.com/google/skills) — GitHub Trending Python
-5. [scenario-labs/skills](https://github.com/scenario-labs/skills) — GitHub Trending Python
-6. [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) — GitHub Trending Python
-7. [NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer) — GitHub Trending Python
-8. [github/spec-kit](https://github.com/github/spec-kit) — GitHub Trending Python
-9. [derv82/wifit3](https://github.com/derv82/wifit3) — GitHub Trending Python
-10. [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws) — GitHub Trending Python
-11. [sandbox-quantum/switch](https://github.com/sandbox-quantum/switch) — GitHub Trending Python
-12. [google-research/timesfm](https://github.com/google-research/timesfm) — GitHub Trending Python
-13. [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills) — GitHub Trending Python
-14. [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot) — GitHub Trending Python
-15. [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) — GitHub Trending Python
-16. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — GitHub Trending Python
-17. [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) — GitHub Trending Python
+2. [google/skills](https://github.com/google/skills) — GitHub Trending Python
+3. [psf/requests](https://github.com/psf/requests) — GitHub Trending Python
+4. [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) — GitHub Trending Python
+5. [apache/airflow](https://github.com/apache/airflow) — GitHub Trending Python
+6. [python-poetry/poetry](https://github.com/python-poetry/poetry) — GitHub Trending Python
+7. [airbytehq/airbyte](https://github.com/airbytehq/airbyte) — GitHub Trending Python
+8. [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) — GitHub Trending Python
+9. [pandas-dev/pandas](https://github.com/pandas-dev/pandas) — GitHub Trending Python
+10. [onnx/onnx](https://github.com/onnx/onnx) — GitHub Trending Python
+11. [django/django](https://github.com/django/django) — GitHub Trending Python
+12. [pydantic/pydantic](https://github.com/pydantic/pydantic) — GitHub Trending Python
+13. [pipeshub-ai/pipeshub-ai](https://github.com/pipeshub-ai/pipeshub-ai) — GitHub Trending Python
+14. [antoniaci/blackbird](https://github.com/antoniaci/blackbird) — GitHub Trending Python
+15. [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — GitHub Trending Python
+16. [numpy/numpy](https://github.com/numpy/numpy) — GitHub Trending Python
+17. [psf/black](https://github.com/psf/black) — GitHub Trending Python
+18. [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) — GitHub Trending Python
+19. [mlflow/mlflow](https://github.com/mlflow/mlflow) — GitHub Trending Python
+20. [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) — GitHub Trending Python
 
 ---
 
-共 **17** 篇今日新文章，来自 **2** 个 RSS 源。
+共 **20** 篇今日新文章，来自 **2** 个 RSS 源。
