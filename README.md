@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-14 09:53:52)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-15 09:24:18)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,34 +6,34 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [FAA issues national ground stop](https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247)  2026-11-13 |
+| **Hacker News Best** | [SpaceX catches the Starship to end Flight 15](https://www.spacex.com/launches/starship-flight-15)  2026-11-14 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) 🌈 2026-11-14 |
+| **GitHub Trending Python** | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) 🌈 2026-11-15 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-11-14)
+## 🕶️ 今日值得看 (2026-11-15)
 
-1. [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) — GitHub Trending Python
-2. [openai/whisper](https://github.com/openai/whisper) — GitHub Trending Python
-3. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) — GitHub Trending Python
-4. [fastapi/fastapi](https://github.com/fastapi/fastapi) — GitHub Trending Python
-5. [python/cpython](https://github.com/python/cpython) — GitHub Trending Python
-6. [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) — GitHub Trending Python
-7. [oaustegard/claude-skills](https://github.com/oaustegard/claude-skills) — GitHub Trending Python
-8. [rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes) — GitHub Trending Python
-9. [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) — GitHub Trending Python
-10. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — GitHub Trending Python
-11. [huggingface/transformers](https://github.com/huggingface/transformers) — GitHub Trending Python
-12. [figma/mcp-server-guide](https://github.com/figma/mcp-server-guide) — GitHub Trending Python
-13. [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) — GitHub Trending Python
-14. [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) — GitHub Trending Python
-15. [Qiskit/qiskit](https://github.com/Qiskit/qiskit) — GitHub Trending Python
-16. [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) — GitHub Trending Python
+1. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) — GitHub Trending Python
+2. [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) — GitHub Trending Python
+3. [Tencent-Hunyuan/Hy-MT2](https://github.com/Tencent-Hunyuan/Hy-MT2) — GitHub Trending Python
+4. [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) — GitHub Trending Python
+5. [avenoxai/avenoxbeyin](https://github.com/avenoxai/avenoxbeyin) — GitHub Trending Python
+6. [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) — GitHub Trending Python
+7. [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) — GitHub Trending Python
+8. [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) — GitHub Trending Python
+9. [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) — GitHub Trending Python
+10. [ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender) — GitHub Trending Python
+11. [realiti4/claude-swap](https://github.com/realiti4/claude-swap) — GitHub Trending Python
+12. [volcengine/OpenViking](https://github.com/volcengine/OpenViking) — GitHub Trending Python
+13. [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) — GitHub Trending Python
+14. [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) — GitHub Trending Python
+15. [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) — GitHub Trending Python
+16. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — GitHub Trending Python
 
 ---
 
