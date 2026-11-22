@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-21 10:54:31)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-22 09:44:10)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,17 +6,17 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [Inkling 2 Mini](https://thinkingmachines.ai/news/inkling-2-mini/)  2026-11-20 |
+| **Hacker News Best** | [Inkling-2-Mini in 5.4 GB Memory](https://github.com/ShinMegamiBoson/lookatmyquant)  2026-11-21 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) 🌈 2026-11-21 |
+| **GitHub Trending Python** | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) 🌈 2026-11-22 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-11-21)
+## 🕶️ 今日值得看 (2026-11-22)
 
 1. [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) — GitHub Trending Python
 2. [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — GitHub Trending Python
