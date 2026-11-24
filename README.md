@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-23 10:02:55)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-24 13:39:17)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,17 +6,17 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth](https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth)  2026-11-22 |
+| **Hacker News Best** | [Huang's Return Is the Biggest National Security Scandal in U.S. History](https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/)  2026-11-23 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) 🌈 2026-11-23 |
+| **GitHub Trending Python** | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) 🌈 2026-11-24 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-11-23)
+## 🕶️ 今日值得看 (2026-11-24)
 
 1. [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) — GitHub Trending Python
 2. [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — GitHub Trending Python
