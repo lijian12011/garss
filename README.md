@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-26 11:50:12)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-27 11:51:50)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,17 +6,17 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [Much shorter version of GRH Lean verification from Anthropic](https://github.com/lsernau/grh-lean)  2026-11-25 |
+| **Hacker News Best** | [AI made self-hosting fun again](https://janlukas.blog/posts/ai-self-hosting)  2026-11-26 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) 🌈 2026-11-26 |
+| **GitHub Trending Python** | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) 🌈 2026-11-27 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-11-26)
+## 🕶️ 今日值得看 (2026-11-27)
 
 1. [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) — GitHub Trending Python
 2. [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — GitHub Trending Python
@@ -36,12 +36,13 @@
 16. [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo) — GitHub Trending Python
 17. [superdesigndev/treg](https://github.com/superdesigndev/treg) — GitHub Trending Python
 18. [p-e-w/heretic](https://github.com/p-e-w/heretic) — GitHub Trending Python
-19. [github/spec-kit](https://github.com/github/spec-kit) — GitHub Trending Python
-20. [phone-harness/phone-harness](https://github.com/phone-harness/phone-harness) — GitHub Trending Python
-21. [odoo/odoo](https://github.com/odoo/odoo) — GitHub Trending Python
-22. [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) — GitHub Trending Python
-23. [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra) — GitHub Trending Python
+19. [samuelgursky/davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) — GitHub Trending Python
+20. [github/spec-kit](https://github.com/github/spec-kit) — GitHub Trending Python
+21. [phone-harness/phone-harness](https://github.com/phone-harness/phone-harness) — GitHub Trending Python
+22. [odoo/odoo](https://github.com/odoo/odoo) — GitHub Trending Python
+23. [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) — GitHub Trending Python
+24. [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra) — GitHub Trending Python
 
 ---
 
-共 **23** 篇今日新文章，来自 **2** 个 RSS 源。
+共 **24** 篇今日新文章，来自 **2** 个 RSS 源。
