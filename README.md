@@ -1,4 +1,4 @@
-# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-27 11:51:50)
+# 📰 每日技术简报 (garss, 已收集2个RSS源, 生成时间: 2026-11-28 11:37:32)
 
 基于 [garss](https://github.com/zhaoolee/garss) 改造，每日自动拉取 RSS 源并生成简报。
 
@@ -6,17 +6,17 @@
 
 | 源 | 最新内容 |
 | --- | --- |
-| **Hacker News Best** | [AI made self-hosting fun again](https://janlukas.blog/posts/ai-self-hosting)  2026-11-26 |
+| **Hacker News Best** | [States sue SpaceX to stop Grok from generating child sex images, revenge porn](https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform)  2026-11-27 |
 
 ## 开源项目
 
 | 源 | 最新内容 |
 | --- | --- |
-| **GitHub Trending Python** | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) 🌈 2026-11-27 |
+| **GitHub Trending Python** | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) 🌈 2026-11-28 |
 
 ---
 
-## 🕶️ 今日值得看 (2026-11-27)
+## 🕶️ 今日值得看 (2026-11-28)
 
 1. [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) — GitHub Trending Python
 2. [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — GitHub Trending Python
